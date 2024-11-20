@@ -6,9 +6,9 @@ on:
     branches: [main]
 
 env:
-  AZURE_CONTAINER_REGISTRY: acr_name
-  CONTAINER_APP_NAME: ca_name
-  RESOURCE_GROUP: rg_name
+  AZURE_CONTAINER_REGISTRY: carmechanic
+  CONTAINER_APP_NAME: carmechanic
+  RESOURCE_GROUP: car-mechanic-dev
 
 jobs:
   publish: 
