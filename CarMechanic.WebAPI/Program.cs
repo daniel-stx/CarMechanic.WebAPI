@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
     {
         await app.InitializeDatabaseContext(scope);
     }
-}
+} 
 
 app.UseHttpsRedirection();
 
